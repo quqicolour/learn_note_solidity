@@ -1,0 +1,2 @@
+# learn_note_solidity
+适用于solidity的学习笔记
