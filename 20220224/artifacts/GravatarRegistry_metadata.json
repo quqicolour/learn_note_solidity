@@ -1,0 +1,234 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_imageUrl",
+						"type": "string"
+					}
+				],
+				"name": "updateGravatarImage",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "setMythicalGravatar",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"name": "getGravatar",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					},
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "gravatarToOwner",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "ownerToGravatar",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_displayName",
+						"type": "string"
+					}
+				],
+				"name": "updateGravatarName",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_displayName",
+						"type": "string"
+					},
+					{
+						"name": "_imageUrl",
+						"type": "string"
+					}
+				],
+				"name": "createGravatar",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "gravatars",
+				"outputs": [
+					{
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"name": "displayName",
+						"type": "string"
+					},
+					{
+						"name": "imageUrl",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "displayName",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"name": "imageUrl",
+						"type": "string"
+					}
+				],
+				"name": "NewGravatar",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "displayName",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"name": "imageUrl",
+						"type": "string"
+					}
+				],
+				"name": "UpdatedGravatar",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learn_list/20220224/thegraph_door1.sol": "GravatarRegistry"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learn_list/20220224/thegraph_door1.sol": {
+			"keccak256": "0xd5282caf6ca7cde81e7087f392bac9e0bc97e57eaa0055a585cca93bfd5a7a04",
+			"urls": [
+				"bzzr://b1e2a5d25377c8207461db4e734fda745a8dce29fff43b1676d2ed31dfa67db1"
+			]
+		}
+	},
+	"version": 1
+}
